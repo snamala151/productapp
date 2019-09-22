@@ -1,0 +1,17 @@
+<div><a routerLink="/products/productlist" class="float-right">Back to Products</a></div>
+
+<div class="row">
+  <div class="col-md-2" *ngFor="let furniture of furnitureList">
+    <div class="productblock" (click)="onProductCategoryClick(furniture.categoryName)" >
+        <div>
+          {{furniture.categoryName}}
+        </div>
+        <div>
+          <img src="{{furniture.categoryImg}}" class="img-thumbnail">
+        </div>
+        <div>
+          {{furniture.startPrice}}
+      </div>
+    </div>
+  </div>
+</div>

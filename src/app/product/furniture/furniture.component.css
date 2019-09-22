@@ -1,0 +1,14 @@
+.productblock{
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 10px;
+  width: 100%;
+  height: 150px;
+}
+
+.productblock:hover {
+  background: aqua;
+  border: 2px solid blue;
+  cursor: pointer;
+}
