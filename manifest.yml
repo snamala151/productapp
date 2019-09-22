@@ -6,4 +6,4 @@ applications:
   path: ./dist/productapp
   command: "$HOME/boot.sh"
   routes:
-    - route: productapp.domain.com
+    - route: jhansun.domain.com
